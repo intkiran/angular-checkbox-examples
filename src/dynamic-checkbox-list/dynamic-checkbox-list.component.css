@@ -1,0 +1,9 @@
+ul {
+  list-style-type: none;
+}
+
+ul > li {
+  margin: auto;
+  float: none;
+  display: block;
+}

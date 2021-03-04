@@ -1,0 +1,13 @@
+<h1>
+  Dynamic Checkbox List Example
+</h1>
+<ul>
+  <li *ngFor="let role of roles">
+    <input type="checkbox" [(ngModel)]="role.checked" />
+    <label>{{role.name}}</label>
+  </li>
+</ul>
+
+And the select Object is
+
+<pre>{{this.selectedCheckboxList | json}}</pre>
